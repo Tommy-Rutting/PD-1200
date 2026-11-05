@@ -32,9 +32,6 @@ I am going to try to turn it into a full-fledged VST, AU, CLAP, and LV2 plug-in 
 Make fat tracks with the PD 1200!
 Tommy
 
-If you need any adjustments to this translation or have another text to translate, let me know!
-
-
 
 
 
