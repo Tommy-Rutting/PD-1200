@@ -24,7 +24,7 @@ Features & Workflow
 
 •	Filter Toggle: There is also a filter button you can toggle on/off. This acts like the half-pulled jack trick on the rear output of the original SP-1200, bypassing the internal filters and giving the voices the full frequency range.
 
-•	Decay: Above the start and end sliders there is a rotary knob that goes from 0 to 31 0 is a very short decay to 30 which is the max decay and 31 is no decay like the original SP 1200.
+•	Decay: Top left of the start slider there is a rotary knob that goes from 0 to 31 0 is a very short decay to 30 which is the max decay and 31 is no decay like the original SP 1200.
 
 Final Notes
 I am going to try to turn it into a full-fledged VST, AU, CLAP, and LV2 plug-in if I have more time. This emulation is built to have the variable pitch-sample rate of 26.041 kHz, 12-bit sound, without compromising down to 44100+ Hz or 16+ bit. It is a true 12-bit 26.040 kHz EMU SP-1200 sampler inside a modern 44100+ Hz / 16+ bit DAW environment. That is also why the patch does not load standard WAV formats. Although it does not contain the original menu structure, it comes very very close to the original in terms of sound! A lot of work has gone into it. ;-)
