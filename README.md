@@ -1,4 +1,3 @@
-
 PD 1200 is an emulation of the E-mu SP-1200 Audio Engine, not it's sequencer, you need a DAW or other MIDI device for that. This is my very first Pure Data project, so you may encounter unconventional or remarkable solutions for certain problems when looking at how the patch works. This is a short manual. Installation is very straightforward: install Plugdata, copy the files to the Plugdata folder, and load it as a standalone or as a plug-in in your DAW (see below). You will also find some explanation here on how it works.
 
 Installation
@@ -31,6 +30,9 @@ Final Notes
 I am going to try to turn it into a full-fledged VST, AU, CLAP, and LV2 plug-in if I have more time. This emulation is built to have the variable pitch-sample rate of 26.041 kHz, 12-bit sound, without compromising down to 44100+ Hz or 16+ bit. It is a true 12-bit 26.040 kHz EMU SP-1200 sampler inside a modern 44100+ Hz / 16+ bit DAW environment. That is also why the patch does not load standard WAV formats. Although it does not contain the original menu structure, it comes very very close to the original in terms of sound! A lot of work has gone into it. ;-)
 Make fat tracks with the PD 1200!
 Tommy
+
+<img width="669" height="529" alt="PD 1200" src="https://github.com/user-attachments/assets/c7e11763-1cb8-43ae-91cc-a09a19eff13b" />
+
 
 
 
