@@ -1,17 +1,13 @@
 
-PD 1200 is an emulation of the E-mu SP-1200 Audio Engine, not its sequencer, you need a DAW or other MIDI device for that. This is my very first Pure Data project, so you may encounter unconventional or remarkable solutions for certain problems when looking at how the patch works. This is a short manual. Installation is very straightforward: install Plugdata, copy the files to the Plugdata folder, and load it as a standalone or as a plug-in in your DAW (see below). You will also find some explanation here on how it works.
+PD 1200 is an emulation of the E-mu SP-1200 Audio Engine, not it's sequencer, you need a DAW or other MIDI device for that. This is my very first Pure Data project, so you may encounter unconventional or remarkable solutions for certain problems when looking at how the patch works. This is a short manual. Installation is very straightforward: install Plugdata, copy the files to the Plugdata folder, and load it as a standalone or as a plug-in in your DAW (see below). You will also find some explanation here on how it works.
 
 Installation
-	1	It is built in Plugdata. You might be wondering: what is Plugdata? Plugdata is a modern, open-source visual programming environment designed to bring the power of Pure Data (Pd) directly to your DAW as an audio plug-in. Think of it as a modular sandbox—similar to Max for Live or Reaktor—built on a highly responsive, JUCE-powered user interface. Thanks to seamless DAW integration, it runs natively as a VST3, AU, or LV2 plug-in inside every major host (such as Ableton Live, Logic Pro, Bitwig, Reaper, and FL Studio). Install Plugdata version 0.9.3 or newer. This automatically installs the VST3, AU, and CLAP plug-ins for your DAW so you can load the patch in your DAW: plugdata.org.
-	2	
-	3	First, copy the extracted contents of the Plugdata folder from this download to /Users/[yourname]/Documents/Plugdata on macOS, to C:\Users\[YourUsername]\Documents\plugdata on Windows, or to /home/[yourusername]/Documents/plugdata on Linux.
-	4	
-	5	Load the Plugdata plug-in in your DAW, open the Plugdata plug-in, click on the three lines in the top left, click Open Patch…, and open PD 1200.pd.
-	6	
-	7	Press the performance button at the top center (or use the shortcut Cmd + E on macOS or the Windows/Linux equivalent) to switch to presentation or run mode. If you stay in edit mode, you run the risk of shifting the faceplate or altering the programming of the patch. So be careful! Should this happen anyway, press Cmd + Z (undo) on macOS or the Windows/Linux equivalent.
-	8	
-	9	You will likely want to zoom out a bit; the faceplate is 1920 x 1522 pixels, so it is quite large. You can zoom back in later when needed to set the start and end points very accurately.
-	10	
+
+1.	It is built in Plugdata. You might be wondering: what is Plugdata? Plugdata is a modern, open-source visual programming environment designed to bring the power of Pure Data (Pd) directly to your DAW as an audio plug-in. Think of it as a modular sandbox—similar to Max for Live or Reaktor—built on a highly responsive, JUCE-powered user interface. Thanks to seamless DAW integration, it runs natively as a VST3, AU, or LV2 plug-in inside every major host (such as Ableton Live, Logic Pro, Bitwig, Reaper, and FL Studio). Install Plugdata version 0.9.3 or newer. This automatically installs the VST3, AU, and CLAP plug-ins for your DAW so you can load the patch in your DAW: plugdata.org.
+2.   First, copy the extracted contents of the Plugdata folder from this download to /Users/[yourname]/Documents/Plugdata on macOS, to C:\Users\[YourUsername]\Documents\plugdata on Windows, or to /home/[yourusername]/Documents/plugdata on Linux.
+3.	Load the Plugdata plug-in in your DAW, open the Plugdata plug-in, click on the three lines in the top left, click Open Patch…, and open PD 1200.pd.
+6.	Press the performance button at the top center (or use the shortcut Cmd + E on macOS or the Windows/Linux equivalent) to switch to presentation or run mode. If you stay in edit mode, you run the risk of shifting the faceplate or altering the programming of the patch. So be careful! Should this happen anyway, press Cmd + Z (undo) on macOS or the Windows/Linux equivalent.
+7.	You will likely want to zoom out a bit; the faceplate is 1920 x 1522 pixels, so it is quite large. You can zoom back in later when needed to set the start and end points very accurately.	
 
 Features & Workflow
 	•	Presets: The Setup button loads a standard default preset included in the Plugdata folder. You can save your own default preset by sampling into the 8 voices and pressing the Save button. Note: this does not load project-specifically in your DAW. For that, use the save buttons of the voices themselves (see the chapter on Saving Samples in this short manual).
