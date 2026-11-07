@@ -14,7 +14,7 @@ Features & Workflow
 
 •	Sampling: To sample into a specific voice (1 through 8), press the small red button for that voice in the Performance section. Next, you can press Monitor to hear your input signal and listen to how it sounds when you overdrive the input. Adjust the recording level in the top right corner and press the red Record button to record the input. It always records for exactly 5 seconds. I may build a threshold trigger function in the future.
 
-•	Loading Samples: The small blue button in the Performance section loads a sample into the selected voice. The PD 1200 loads a specific file sampled at 26.040 kHz / 12-bit. Therefore, you must first save a sample or load the demo samples included with the patch. You need to save all 8 voices to a location in order for them to load correctly in the DAW project you are working on. It is best to create a folder with the same name as your DAW project to save the 8 voices/samples into; the patch will then automatically load those samples when you close and reopen that session.	
+•	Loading Samples: The small blue button in the Performance section loads a sample into the selected voice. The PD 1200 loads a specific file sampled at 26.041 kHz / 12-bit. Therefore, you must first save a sample or load the demo samples included with the patch. You need to save all 8 voices to a location in order for them to load correctly in the DAW project you are working on. It is best to create a folder with the same name as your DAW project to save the 8 voices/samples into; the patch will then automatically load those samples when you close and reopen that session.	
 
 •	Sample Rates & Authenticity: Set your DAW's audio settings (or Plugdata's own settings when used standalone) to at least 88.2 kHz or 96 kHz for an authentic E-mu SP-1200 sound. This prevents unwanted extra aliasing during recording and playback. You can use 44.1 kHz or 48 kHz if you prefer a slightly more aliased sound and want better CPU performance.
 
@@ -27,7 +27,7 @@ Features & Workflow
 •	Decay: Top left of the start slider there is a rotary knob that goes from 0 to 31 0 is a very short decay to 30 which is the max decay and 31 is no decay like the original SP 1200.
 
 Final Notes
-I am going to try to turn it into a full-fledged VST, AU, CLAP, and LV2 plug-in if I have more time. This emulation is built to have the variable pitch-sample rate of 26.041 kHz, 12-bit sound, without compromising down to 44100+ Hz or 16+ bit. It is a true 12-bit 26.040 kHz EMU SP-1200 sampler inside a modern 44100+ Hz / 16+ bit DAW environment. That is also why the patch does not load standard WAV formats. Although it does not contain the original menu structure, it comes very very close to the original in terms of sound! A lot of work has gone into it. ;-)
+I am going to try to turn it into a full-fledged VST, AU, CLAP, and LV2 plug-in if I have more time. This emulation is built to have the variable pitch-sample rate of 26.041 kHz, 12-bit sound, without compromising down to 44100+ Hz or 16+ bit. It is a true 12-bit 26.041 kHz EMU SP-1200 sampler inside a modern 44100+ Hz / 16+ bit DAW environment. That is also why the patch does not load standard WAV formats. Although it does not contain the original menu structure, it comes very very close to the original in terms of sound! A lot of work has gone into it. ;-)
 Make fat tracks with the PD 1200!
 Tommy
 
