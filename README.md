@@ -1,4 +1,4 @@
-PD 1200 is an emulation of the E-mu SP-1200 Audio Engine, not it's sequencer, you need a DAW or other MIDI device for that. This is my very first Pure Data project, so you may encounter unconventional or remarkable solutions for certain problems when looking at how the patch works. This is a short manual. Installation is very straightforward: install Plugdata, copy the files to the Plugdata folder, and load it as a standalone or as a plug-in in your DAW (see below). You will also find some explanation here on how it works.
+PD 1200 is an emulation of the E-mu SP-1200 Audio Engine, no sequencer, you need a DAW or other MIDI device for that. This is my very first Pure Data project, so you may encounter unconventional or remarkable solutions for certain problems when looking at how the patch works. This is a short manual. Installation is very straightforward: install Plugdata, copy the files to the Plugdata folder, and load it as a standalone or as a plug-in in your DAW (see below). You will also find some explanation here on how it works.
 
 Installation
 
